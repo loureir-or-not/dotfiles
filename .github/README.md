@@ -11,7 +11,7 @@ because of its community and its power through USE flags and patches
 among other features within Portage.
 
 # Why aren't you using real Gentoo?
-<p style="color: #00ff00;">I wouldn't know why I would choose WSL either!</p>
+[I wouldn't know why I would choose WSL either!](https://youtu.be/MShbP3OpASA?t=2996)
 
 Obvious jab aside, I also think Windows is a good operating system
 but bad for developer experience, which WSL fixes. I think I would
