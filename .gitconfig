@@ -6,3 +6,8 @@
 	gpgsign = true
 [tag]
 	gpgSign = true
+[alias]
+	cl = clone
+	a = add
+	aa = add .
+	st = status
