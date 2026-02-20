@@ -1,0 +1,8 @@
+[user]
+	name = Renato Loureiro
+	email = loureiror@proton.me
+	signingKey = BCEF8792C64DA5DA
+[commit]
+	gpgSign = true
+[tag]
+	gpgSign = true

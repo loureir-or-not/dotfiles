@@ -1,0 +1,13 @@
+#!/bin/bash
+output="$(mktemp -d)"
+confdir="${XDG_CONFIG_HOME:-$HOME/.config}/dconf"
+
+die() {
+    echo "$@"
+    exit 1
+}
+
+if ! dconf compile "$output/user" "$confdir/conf.d"; then 
+    die "dconf failed compiling the keyfiles in some way, retreat!"
+fi
+cp "$output/user" "$confdir"
