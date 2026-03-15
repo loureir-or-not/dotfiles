@@ -11,7 +11,7 @@ except for Vim.
 |----------|---------------|
 | Distro   | Debian        |
 | Shell    | fish          |
-| Desktop  | GNOME         |
-| Terminal | GNOME Console |
-| Editing  | VSCodium, vim |
-| Browsing | Firefox       |
+| Desktop  | KDE           |
+| Terminal | Alacritty     |
+| Editing  | Helix         |
+| Browsing | Chromium      |
